@@ -16,7 +16,7 @@ Let's start with rests.
 
 I believe rests ARE notes; they're merely notes that don't happen to have a pitch.
 
-Hence, I like scorewriters that treat rests as first class citizens.  For me, music is a static game of populating durations.  The durations could just as easily be populated with notes or rests.
+Hence, I like scorewriters that treat rests as first-class citizens.  For me, music is a static game of populating durations.  The durations could just as easily be populated with notes or rests.
 
 I like to be able to promote notes to rests (and vice versa) as easily and seamlessly as possible.
 
@@ -64,4 +64,4 @@ I like to have a chance to change things in a static way first, before any dynam
 
 In some cases a copy-paste-tweak approach can be faster than straight note entry; in other cases it is slower, but simpler for me given that I'm not a professional musician and I look at music more as a form of code rather than as music.
 
-To someone deeper in music, my approach might seem like the notation equivalent of hunt-and-peck typing; but I often program in a copy-paste-tweak manner, so that approach feels comfortable to me.
+To someone deeper in music, my approach might seem like the notational equivalent of hunt-and-peck typing; but I often program in a copy-paste-tweak manner, so that approach feels comfortable to me.
