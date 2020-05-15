@@ -62,7 +62,7 @@ In systems that have a lot of dynamic behavior, this can cause problems by rewri
 
 I like to have a chance to change things in a static way first, before any dynamic algorithms kick in to refactor my code.
 
-(I wish I had a button to toggle dynamic algorithms from kicking in until I'm done!)
+(I wish I had a button to toggle dynamic algorithms from kicking in until I'm done!  Imagine for a moment a search engine that starts to search as you type your search text instead of waiting until you signal that you're done by hitting the search button.  Wouldn't that annoy you?  And yet, a lot of scorewriters have eager behavior tantamount to that.)
 
 In some cases a copy-paste-tweak approach can be faster than straight note entry; in other cases it is slower, but simpler for me given that I'm not a professional musician and I look at music more as a form of code rather than as music.
 
