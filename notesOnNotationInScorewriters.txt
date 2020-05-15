@@ -22,9 +22,9 @@ I like to be able to promote notes to rests (and vice versa) as easily and seaml
 
 In Sibelius, rests are first-class citizens; but in Dorico they aren't.
 
-To make Dorico behave in a more static way, I often notate them as notes (since notes ARE first class) while doing entry.  Then after I'm done manipulating everything as I want, I go back and delete rests that I notated as notes (which changes them into explicit rests).
+To make Dorico behave in a more static way, I often notate rests as notes (since notes ARE first class) while doing entry.  Then after I'm done manipulating everything as I want, I go back and delete rests that I notated as notes (which changes them into explicit rests).
 
-In Dorico, you can remove rests; but if you do that, it makes it harder to later promote them to notes.
+In Dorico, you can remove rests (Edit -> Remove Rests); but if you do that, it makes it harder to get them back and promote missing rests to notes.
 
 In Sibelius, you can hide rests, and make hidden rests invisible (to avoid clutter).  
 
@@ -40,13 +40,15 @@ For this reason, in Dorico, I like to delay tying notes until the end (when I've
 
 For instance, if you have a note (or notes) selected, and you hit R, that will replicate the entity (whatever it is).  This is where I want first-class behavior:  I could just as easily decide to replicate notes, rests, or any other music notation elements.
 
-If you hit R when a tied entity is selected, you replicate the entire entity (which often isn't what I want).  Manipulating tied entities can often affect the shape of the surrouding environment they occur in, in ways I often don't like; since Dorico has a lot of dynamic behavior for adjusting ties based on the context.
+If you hit R when a tied entity is selected, you replicate the entire (tied) entity (which often isn't what I want).  Manipulating tied entities can often affect the shape of the surrouding environment they occur in, in ways I often don't like; since Dorico has a lot of dynamic behavior for adjusting ties based on the context.
 
 Dorico is very keen on making sure that notes respect the beat, and will often convert durations to tied notes rather than untied notes of a longer duration. 
 
 That's fine, but sometimes I don't want that behavior; hence the "Force Duration" button is my friend.
 
-This lets me get more static behavior; I can select participants in ties separately, to allow me to change their duration and otherwise manipulate them, without impacting any tied entities.
+This lets me get more static behavior; I can select participants in ties separately (before I've tied them together), to allow me to change their duration and otherwise manipulate them, without impacting any tied entities.
+
+Then, when everything looks right, I can (as my last step) perform the tie operations to tie them together.
 
 When entering an existing manuscript, I'm less interested in musical purity than I am in being able to mimic the existing document (even if some of the notational approach is not musically correct:  I like to make those decisions later in the game).
 
@@ -54,10 +56,12 @@ When entering an existing manuscript, I'm less interested in musical purity than
 
 Due to the repetitive nature of music, I often like to hunt for a measure that has a similar structure to what I want, and tweak it.
 
-In systems that have a lot of dynamic behavior, this can cause problems by rewriting things in ways I don't want.
+In systems that have a lot of dynamic behavior, this can cause problems by rewriting things in ways I don't want as I'm in my tweaking process.
 
 I like to have a chance to change things in a static way first, before any dynamic algorithms kick in to refactor my code.
 
-In some cases a copy-paste-tweak can be faster than straight note entry; in other cases it is slower, but simpler for me given that I'm not a professional musician and I look at music more as a form of code rather than as music.
+(I wish I had a button to toggle dynamic algorithms from kicking in until I'm done!)
+
+In some cases a copy-paste-tweak approach can be faster than straight note entry; in other cases it is slower, but simpler for me given that I'm not a professional musician and I look at music more as a form of code rather than as music.
 
 To someone deeper in music, my approach might seem like the notation equivalent of hunt-and-peck typing; but I often program in a copy-paste-tweak manner, so that approach feels comfortable to me.
