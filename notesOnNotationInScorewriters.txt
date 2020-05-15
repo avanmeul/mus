@@ -1,0 +1,63 @@
+First a little context: whenever I'm in a new language/formal system/application, I try to get my bearings by finding out what elements of that language are first-class citizens and which aren't. Then, I study how second-class citizens need to be treated differently.
+
+The notion of first-class citizenship was popularized by the purveyors of Scheme (MIT's dialect of LISP).  The idea is that all elements of a language need to be able to participate equally in all activities sanctioned by the language.  Otherwise, they aren't first class.  For instance, if one can put numbers into an array, one must also be able to put function definitions into arrays (otherwise functions are not first class).
+
+The ramification of this for computer programming languages (and indeed, any system!) is that any deviation from first-class behavior results in a rabbit hole of special case logic that adds complexity for both implementors and users.  It also opens the door for inconsistencies, incoherence, and ambiguities in a language.  By making all citizens first-class, one can achieve elegant simplicity and uniformity.
+
+Another consideration is static versus dynamic.  In this case, static means "give me what I ask for" and "don't second guess me".  Dynamic behavior can result in surprises.
+
+I generally prefer static behavior and try to turn off any system algorithms to rewrite my code (if I'm in a programming interactive development environment) or notation (if I'm in a scorewriter).
+
+I don't like systems that think they know better than me (even if they're right!), and that rewrite my code/notes behind my back; even if their intentions are good, they often seem "too clever by half".
+
+--> Rests
+
+Let's start with rests.
+
+I believe rests ARE notes; they're merely notes that don't happen to have a pitch.
+
+Hence, I like scorewriters that treat rests as first class citizens.  For me, music is a static game of populating durations.  The durations could just as easily be populated with notes or rests.
+
+I like to be able to promote notes to rests (and vice versa) as easily and seamlessly as possible.
+
+In Sibelius, rests are first-class citizens; but in Dorico they aren't.
+
+To make Dorico behave in a more static way, I often notate them as notes (since notes ARE first class) while doing entry.  Then after I'm done manipulating everything as I want, I go back and delete rests that I notated as notes (which changes them into explicit rests).
+
+In Dorico, you can remove rests; but if you do that, it makes it harder to later promote them to notes.
+
+In Sibelius, you can hide rests, and make hidden rests invisible (to avoid clutter).  
+
+I like being able to paste a rest over a note (thus converting the note to a rest) and vice versa.
+
+--> Ties
+
+Ties are a strange beast.  
+
+I'm not sure I'd call them second-class citizens; perhaps it would be more accurate to call them composites or aggregates since they're composed of notes and ties.
+
+For this reason, in Dorico, I like to delay tying notes until the end (when I've got everything in place).  If you tie entities too early in the game, you can't manipulate them like other primitive elements.
+
+For instance, if you have a note (or notes) selected, and you hit R, that will replicate the entity (whatever it is).  This is where I want first-class behavior:  I could just as easily decide to replicate notes, rests, or any other music notation elements.
+
+If you hit R when a tied entity is selected, you replicate the entire entity (which often isn't what I want).  Manipulating tied entities can often affect the shape of the surrouding environment they occur in, in ways I often don't like; since Dorico has a lot of dynamic behavior for adjusting ties based on the context.
+
+Dorico is very keen on making sure that notes respect the beat, and will often convert durations to tied notes rather than untied notes of a longer duration. 
+
+That's fine, but sometimes I don't want that behavior; hence the "Force Duration" button is my friend.
+
+This lets me get more static behavior; I can select participants in ties separately, to allow me to change their duration and otherwise manipulate them, without impacting any tied entities.
+
+When entering an existing manuscript, I'm less interested in musical purity than I am in being able to mimic the existing document (even if some of the notational approach is not musically correct:  I like to make those decisions later in the game).
+
+--> Copy, paste, and tweak
+
+Due to the repetitive nature of music, I often like to hunt for a measure that has a similar structure to what I want, and tweak it.
+
+In systems that have a lot of dynamic behavior, this can cause problems by rewriting things in ways I don't want.
+
+I like to have a change to change things in a static way first, before any dynamic algorithms kick in to refactor my code.
+
+In some cases a copy-paste-tweak can be faster than straight note entry; in other cases it is slower, but simpler for me given that I'm not a professional musician and I look at music more as a form of code rather than as music.
+
+To someone deeper in music, my approach might seem like the notation equivalent of hunt-and-peck typing; but I often program in a copy-paste-tweak manner, so that approach feels comfortable to me.
