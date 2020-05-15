@@ -50,7 +50,9 @@ This lets me get more static behavior; I can select participants in ties separat
 
 Then, when everything looks right, I can (as my last step) perform the tie operations to tie them together.
 
-When entering an existing manuscript, I'm less interested in musical purity than I am in being able to mimic the existing document (even if some of the notational approach is not musically correct:  I like to make those decisions later in the game).
+Because of the way I work with ties, I'm fond of the scissors in Dorico:  this allows breaking apart tie chains into their constituent parts.  Often I need to break tie chains to manipulate the components in ways I forgot about, so being able to zip them an unzip them easily is really nice.
+
+When entering an existing manuscript, I'm less interested in musical purity than I am in being able to mimic the existing document (even if some of the notational approach is not musically correct:  I like to make those decisions later in the game).  Hence, I often like to do things manually to avoid tie chains changing the shape of my carefully crafted musical shapes.
 
 --> Copy, paste, and tweak
 
