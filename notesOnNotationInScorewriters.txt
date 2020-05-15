@@ -56,7 +56,7 @@ Due to the repetitive nature of music, I often like to hunt for a measure that h
 
 In systems that have a lot of dynamic behavior, this can cause problems by rewriting things in ways I don't want.
 
-I like to have a change to change things in a static way first, before any dynamic algorithms kick in to refactor my code.
+I like to have a chance to change things in a static way first, before any dynamic algorithms kick in to refactor my code.
 
 In some cases a copy-paste-tweak can be faster than straight note entry; in other cases it is slower, but simpler for me given that I'm not a professional musician and I look at music more as a form of code rather than as music.
 
