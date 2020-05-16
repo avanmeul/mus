@@ -98,6 +98,20 @@ When notating, or practicing an instrument, I prefer to use scroll view.  Differ
 
 Dorico has a good separation of concerns, relegating edit mode to a separate tab called "Write", and a tab called "Engrave" for taking care of cosmetic concerns involved in making manuscripts look nice for printout or conversion to PDF.
 
+--> Tablature
+
+Some instruments have what I call "synonym notes".  For instance fretted instruments might have multiple places on the fretboard to render the same note.
+
+Tablature allows stringed instruments to notate such choices and communicate information that is more conducive to communicate in tablature than in normal notation staves.
+
+For that reason I never notate guitar music without tablature, and I have developed a system of thought for a separation of concerns as to which things are best described in tablature and which are best described in notation staves.
+
+--> Harmonics
+
+I like to notate natural harmonics using circles, with the notes showing the sounding pitch.
+
+For artificial harmonics, I use diamonds attached to notes showing the left hand note used to create the harmonic.
+
 --> Playback
 
 Playback is extremely important.  My ears often hear what my eyes miss.
@@ -117,3 +131,21 @@ For instruments that have tablature, this provides computer assistance in decidi
 Scorewriters are wonderful assistants in determining playability, and notating such considerations.
 
 Scorewriters are also wonderful tools to assist in arranging, composing, and transcribing (from other instruments).
+
+--> Making illegal music impossible to render
+
+Scorewriters make sure that all durations add up correctly.  They are better at doing such math than humans are.  You can't notate music that isn't mathematically correct.
+
+For this reason, when inputting manuscripts that were not originally created via scorewriters, I often find mistakes that computers are good at catching:  like voices with durations that don't add up correctly.
+
+This then allows one to divine the intentions of the original manuscript authors in order to make corrections.
+
+--> Ossias
+
+Ossias are smaller staves that allow notating alternates for an original passage of music.  Perhaps there are competing versions.  Perhaps there are different existing manuscripts of the same music.  Perhaps you might wish to act as an arranger and modify the existing music to suit your tastes or purposes.
+
+These can all be notated with ossias.
+
+I like to make the main staff be the one that gets my vote as the best to use, and relegate other alternatives to ossias.
+
+Ossias have ramifications for playback; generally I like only the main staff to be the staff that gets played back by default.
