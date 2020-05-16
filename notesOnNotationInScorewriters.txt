@@ -14,7 +14,7 @@ I don't like systems that think they know better than me (even if they're right!
 
 Let's start with rests.
 
-I believe rests ARE notes; they're merely notes that don't happen to have a pitch.
+I believe rests ARE notes; they're merely notes that don't happen to have a pitch.  Another way to think of it:  rests have pitches of silence, and silence is every bit as legitimate a pitch as non-silence.  Music speaks with pregnant pauses in addition to moments of sound.
 
 Hence, I like scorewriters that treat rests as first-class citizens.  For me, music is a static game of populating durations.  The durations could just as easily be populated with notes or rests.
 
@@ -67,3 +67,53 @@ I like to have a chance to change things in a static way first, before any dynam
 In some cases a copy-paste-tweak approach can be faster than straight note entry; in other cases it is slower, but simpler for me given that I'm not a professional musician and I look at music more as a form of code rather than as music.
 
 To someone deeper in music, my approach might seem like the notational equivalent of hunt-and-peck typing; but I often program in a copy-paste-tweak manner, so that approach feels comfortable to me.
+
+--> Duration is king, pitches come last
+
+Regardless what you think of the issue of rests and first-class citizens; one thing that cannot be denied is that rests and notes both share in the property of duration.
+
+Hence, when I need to notate something from scratch, I think top down fashion starting from that trait that notes and rests both share in:  duration.
+
+Because printed music is typically black and white, voices in printed music aren't typically color coded as they are in music notation software.
+
+Incidentally, I'm in favor of colored music printouts:  why lose the information about voices?
+
+When notating existing manuscripts, part of the puzzle is figuring out which notes belong to which voices, and how the voices should be numbered.
+
+For instance, some measures might have 2 voices, while others have 3 or more voices.  This is where some analysis of the music comes into play in planning out voice numbers.
+
+A measure with two voices perhaps should feature voice 1 and voice 3 rather than being numbered as 1 and 2.  I try (as much as possible) to make voice numberings match the roles they play in the music.
+
+Often, I like to start with a voice and notate all the smallest durations by putting in notes of the same pitch.  Notes of the same pitch provide a grid or baseline that makes it easier to see where other notes from other voices will go.
+
+Once I get all the basic structure in place, I then resolve the rests to match the document I'm working from.
+
+I might later decide that the existing manuscript isn't musically correct; but generally those types of corrections come later.  I like to mimic the look-and-feel of existing manuscripts, except where I believe they are musically incorrect.
+
+As the last step, once the structure is all in place (including the rests), I then begin to adjust the pitches.
+
+--> Scroll view
+
+When notating, or practicing an instrument, I prefer to use scroll view.  Different scorewriters have different names for this; but it's basically a continual horizontal scrolling representation of the music.
+
+Dorico has a good separation of concerns, relegating edit mode to a separate tab called "Write", and a tab called "Engrave" for taking care of cosmetic concerns involved in making manuscripts look nice for printout or conversion to PDF.
+
+--> Playback
+
+Playback is extremely important.  My ears often hear what my eyes miss.
+
+Playback is empowering:  it gives people (even those with no dexterity in playing an instrument) to ability to create "performances that never were" that can rival (or exceed) even the best of human performers.
+
+This is reminiscent of the point in history where a computer first beat a chess champion.
+
+It's also empowering in a similar way to how the printing press made printing accessible to the masses, and the point in history where word processors and computers made writing more accessible.
+
+Playback while doing note entry is very helpful to the process.
+
+In deciding what versions of a manuscript are worth working with, it's nice to type them in and hear them; before taking the time to learn to play them on instruments.
+
+For instruments that have tablature, this provides computer assistance in deciding fingerings (for both the left and right hands), and where on the neck a passage should be rendered.
+
+Scorewriters are wonderful assistants in determining playability, and notating such considerations.
+
+Scorewriters are also wonderful tools to assist in arranging, composing, and transcribing (from other instruments).
