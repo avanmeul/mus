@@ -68,6 +68,12 @@ In some cases a copy-paste-tweak approach can be faster than straight note entry
 
 To someone deeper in music, my approach might seem like the notational equivalent of hunt-and-peck typing; but I often program in a copy-paste-tweak manner, so that approach feels comfortable to me.
 
+--> Place the most constrained items first
+
+This is an AI principle:  place the most constrained items first.
+
+This principle is a good guiding principle in many endeavors and can be easily illustrated by placing sand and golfballs (or similar) into a jar, then emptying it out and putting it back into the jar.  If you put the sand in first, it will become difficult to place the golf balls.  If you put the golf balls in first, then pour the sand it, the sand will fill in the gaps left by the golf balls.
+
 --> Duration is king, pitches come last
 
 Regardless what you think of the issue of rests and first-class citizens; one thing that cannot be denied is that rests and notes both share in the property of duration.
@@ -83,6 +89,10 @@ When notating existing manuscripts, part of the puzzle is figuring out which not
 For instance, some measures might have 2 voices, while others have 3 or more voices.  This is where some analysis of the music comes into play in planning out voice numbers.
 
 A measure with two voices perhaps should feature voice 1 and voice 3 rather than being numbered as 1 and 2.  I try (as much as possible) to make voice numberings match the roles they play in the music.
+
+A good way to do this is by notating the measure that has the most voices.  (This invokes the principle cited above of "place the most constrained items first".)  Then, for any measures that have less voices, let the numbering reflect that of the measure with the most voices.
+
+Note that you can copy a note from a measure that has a lot of voices, and paste it into another measure; this is a way to introduce a new voice into a measure you're notating.
 
 Often, I like to start with a voice and notate all the smallest durations by putting in notes of the same pitch.  Notes of the same pitch provide a grid or baseline that makes it easier to see where other notes from other voices will go.
 
@@ -110,7 +120,7 @@ For that reason I never notate guitar music without tablature, and I have develo
 
 I like to notate natural harmonics using circles, with the notes showing the sounding pitch.
 
-For artificial harmonics, I use diamonds attached to notes showing the left hand note used to create the harmonic.
+For artificial harmonics, I use diamonds (to show sound pitches) that are attached to notes which show the left hand fretted note used to create the harmonic.
 
 --> Playback
 
@@ -149,3 +159,11 @@ These can all be notated with ossias.
 I like to make the main staff be the one that gets my vote as the best to use, and relegate other alternatives to ossias.
 
 Ossias have ramifications for playback; generally I like only the main staff to be the staff that gets played back by default.
+
+--> MusicXML
+
+MusicXML is very important, and will become (even more than it is) the lingua franca of music, because it's human readable, easy for source control systems to compute deltas on, and it's universal.
+
+The problem currently is that different scorewriters implement MusicXML differently.
+
+Ideally, in the future, IWBNI there was an application devoted purely to rendering MusicXML in the most accurate way possible.  That could then serve as a benchmark for all scorewriters to determine the proper way to import and export MusicXML.
